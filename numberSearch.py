@@ -11,6 +11,7 @@ print(re.findall(pattern, test_string))
 
 # Step 4: Create a function for regex
 def search(file, pattern= r'\d{3}-\d{3}-\d{4}'):
+    # file =  file path
     f = open(file,'r')
     text = f.read()
     
@@ -24,11 +25,10 @@ def search(file, pattern= r'\d{3}-\d{3}-\d{4}'):
 # Step 5: OS Walk through the Files to Get the Link
 results = []
 # getcwd() = current working directory
-# \\ inserts a backslash
-for folder , sub_folders , files in os.walk(os.getcwd()+"\\extracted_content"):
+for folder , sub_folders , files in os.walk(os.getcwd()+"/extracted_content"):
     
     for f in files:
-        full_path = folder+'\\'+f
+        full_path = folder+'/'+f
         # A default pattern has already been defined:
         results.append(search(full_path)) 
 
