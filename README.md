@@ -3,6 +3,9 @@ Section-14-Advanced-Python-Module-Exercise
 Python Collections Module
 https://github.com/Pierian-Data/Complete-Python-3-Bootcamp/blob/master/12-Advanced%20Python%20Modules/00-Collections-Module.ipynb
 
+Opening and Reading Files and Folders (Python OS Module)
+https://github.com/Pierian-Data/Complete-Python-3-Bootcamp/blob/master/12-Advanced%20Python%20Modules/01-Opening-and-Reading-Files-Folders.ipynb
+
 Python Datetime Module
 https://github.com/Pierian-Data/Complete-Python-3-Bootcamp/blob/master/12-Advanced%20Python%20Modules/02-Datetime-Module.ipynb
 
